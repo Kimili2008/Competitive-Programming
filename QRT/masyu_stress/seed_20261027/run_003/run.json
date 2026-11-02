@@ -1,0 +1,14 @@
+{
+  "solver": "/Users/kimi/KimiWork/Competitive-Programming/QRT/p4.py",
+  "solver_sha256": "2e3638cc45ef65b841414c3db4d2fa49b3656fa04de892a018e67963634a62c0",
+  "python": "3.14.7 (v3.14.7:823f0323ee6, Aug  5 2026, 07:07:01) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "hard_timeout_seconds": 10,
+  "timing": "sequential processes; elapsed wall time includes startup",
+  "selected_cases": [
+    "snake_06_sparse",
+    "snake_06_medium",
+    "snake_06_full",
+    "control_boundary",
+    "control_interior"
+  ]
+}

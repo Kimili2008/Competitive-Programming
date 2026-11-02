@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/Users/kimi/KimiWork/Competitive-Programming/QRT/p4.py", line 768, in <module>
+    main()
+    ~~~~^^
+  File "/Users/kimi/KimiWork/Competitive-Programming/QRT/p4.py", line 763, in main
+    raise RuntimeError("No Masyu loop found within the search time budget")
+RuntimeError: No Masyu loop found within the search time budget

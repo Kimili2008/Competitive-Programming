@@ -1,0 +1,27 @@
+name,rows,cols,white,black,witness_length,reference_proven_optimal,input_sha256,status,seconds,length,witness_relative_score,return_code,validation
+random_01_sparse,50,50,30,24,952,False,27fa749f21a11b6262e092e3f5c2576b9ee9f4e0438f07a3f11aed8ddd0584a1,no_solution,9.065604,,0.0,1,wrong number of rows
+random_01_medium,50,50,120,84,952,False,a3212416c4d7465e57e45d99995956547f5fd0d8b89a6fa69c2744c0d93a77ad,no_solution,9.055412,,0.0,1,wrong number of rows
+random_01_dense,50,50,269,206,952,False,9cd7aaa94818a55ad4366f6a67f51b3981a047638c9d3cd26036575bebb23c9c,no_solution,9.082654,,0.0,1,wrong number of rows
+random_01_full,50,50,388,292,952,False,c8e96c2c076d185834d0029d4cae4784c63b644a674ef4471a4c4fd23ee75c74,no_solution,9.064407,,0.0,1,wrong number of rows
+random_02_sparse,50,50,35,20,952,False,b9ca4cccbadb42e9d38d4fe6b434265b20b5f36ee21451e037e508fcbf93e05e,no_solution,9.115611,,0.0,1,wrong number of rows
+random_02_medium,50,50,119,90,952,False,82b36bc33445b850905482a788e3bafb11c7efead1eb25a56d08129f03ffce97,no_solution,9.152254,,0.0,1,wrong number of rows
+random_02_dense,50,50,282,207,952,False,a121df83854b496a821402fe6df956d26eeb423cd4efbcec867a7e52ceda5133,no_solution,9.106099,,0.0,1,wrong number of rows
+random_02_full,50,50,403,296,952,False,23ff2e360b7a6fcbe803b03df7f79310cc2e38d559147d27d3193059500d5525,no_solution,9.060629,,0.0,1,wrong number of rows
+random_03_sparse,50,50,24,9,660,False,88033735e64c98d824f742b2ead464fa2e53c0386f044a5c21b2d041636551df,no_solution,9.047762,,0.0,1,wrong number of rows
+random_03_medium,50,50,78,46,660,False,a752c0822e3d90d246f216c422e7f25632513d2217054e7b662074b92e503a05,no_solution,9.051651,,0.0,1,wrong number of rows
+random_03_dense,50,50,187,102,660,False,d22cfa73e38210634ded026819c38152d158e0ef7ef2bd842db24aae3a363c92,no_solution,9.069095,,0.0,1,wrong number of rows
+random_03_full,50,50,276,138,660,False,fbd1e7c3c43314b6f9ee04e8a3af35ae286cbbf45f70d0815c80418e9e763c5b,no_solution,9.108504,,0.0,1,wrong number of rows
+random_04_sparse,48,50,30,24,912,False,af49eb440cc1ce7bdc4b11265d574cb7e464deab2faa4c4ddd6a720b1b5f5c80,no_solution,9.051471,,0.0,1,wrong number of rows
+random_04_medium,48,50,113,91,912,False,a43bd85a421979f0a9279e9345bdf7a786824678e5e737ddf3411df70247e3b0,no_solution,9.059355,,0.0,1,wrong number of rows
+random_04_dense,48,50,267,211,912,False,88482459f6c7faba3c30623e10415ef7b1d843c0465204112baa8a6cfe520ae3,no_solution,9.093049,,0.0,1,wrong number of rows
+random_04_full,48,50,389,294,912,False,f2e4871ba74a2cef6680a219a70bb3b81eafde8f7744454e5fba9b526fdcc2ac,no_solution,9.087141,,0.0,1,wrong number of rows
+tight_05_sparse,50,50,46,8,1900,False,8b41432f62350e6675c65087292b5cf2f2fa72b442afe90221150132a0dacddc,no_solution,9.049143,,0.0,1,wrong number of rows
+tight_05_medium,50,50,174,29,1900,False,9a767ceb356a996186483b4a2f86772cb3825b77e261625919d665976f3fed0b,no_solution,9.070993,,0.0,1,wrong number of rows
+tight_05_dense,50,50,395,79,1900,False,dcfe3773a627de70645c7a857f0a2c9f0adee57cf771ca5fef37f7a0b927856a,no_solution,9.04951,,0.0,1,wrong number of rows
+tight_05_full,50,50,578,100,1900,False,5ee70f1ac34519774bba0596092ab78bfc451e903afed34610ecbeb07d90086d,no_solution,9.079249,,0.0,1,wrong number of rows
+snake_06_sparse,50,40,5,4,960,False,56082c21785e1d4e73ee4af06490281f59788bd2e720f2a880aa6762f962932f,no_solution,9.091561,,0.0,1,wrong number of rows
+snake_06_medium,50,40,23,13,960,False,1e35e20d9eeacb5b65ef078433e7e0688b8db5167e028d2b8c04ab67c8d72060,no_solution,9.078394,,0.0,1,wrong number of rows
+snake_06_dense,50,40,49,35,960,False,6b2b5e9f4f442dc85142e617c4cefcc215e9e7877c59bf5457253fefeea43277,no_solution,9.114126,,0.0,1,wrong number of rows
+snake_06_full,50,40,73,48,960,False,0823df0d62a8e3004c6a491368ae728fcfdc95ce1b0fbade3bb2813e65ca31a9,valid,1.024232,960,99.758264,0,valid
+control_boundary,50,50,1,4,196,True,cd961bf8d771cf50f94f40cce9178c078cd25b0884201b9182695d14159991ac,valid,0.99177,196,100.0,0,valid
+control_interior,50,50,1,4,128,True,92974f8937cdd2849f53b03d66daf7f2609f344e2671ea1f9e3fe01f26d5b0f6,valid,0.977735,128,100.0,0,valid

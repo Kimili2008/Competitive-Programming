@@ -1,0 +1,6 @@
+name,rows,cols,white,black,witness_length,reference_proven_optimal,input_sha256,status,seconds,length,witness_relative_score,return_code,validation
+snake_06_sparse,50,40,5,4,960,False,56082c21785e1d4e73ee4af06490281f59788bd2e720f2a880aa6762f962932f,valid,0.127652,276,100.0,0,valid
+snake_06_medium,50,40,23,13,960,False,1e35e20d9eeacb5b65ef078433e7e0688b8db5167e028d2b8c04ab67c8d72060,valid,2.43231,470,87.545782,0,valid
+snake_06_full,50,40,73,48,960,False,0823df0d62a8e3004c6a491368ae728fcfdc95ce1b0fbade3bb2813e65ca31a9,valid,0.118995,960,100.0,0,valid
+control_boundary,50,50,1,4,196,True,cd961bf8d771cf50f94f40cce9178c078cd25b0884201b9182695d14159991ac,valid,0.047722,196,100.0,0,valid
+control_interior,50,50,1,4,128,True,92974f8937cdd2849f53b03d66daf7f2609f344e2671ea1f9e3fe01f26d5b0f6,valid,0.03608,128,100.0,0,valid
